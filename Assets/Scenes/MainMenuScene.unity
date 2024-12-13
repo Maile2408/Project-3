@@ -164,11 +164,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 208628799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1833b7dbaffd42d46970e16f4b5befbe, type: 3}
+  m_Script: {fileID: 11500000, guid: f2cb2204ce714394aa9e1eb652cb892e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 0}
+  damageTextPrefab: {fileID: 0}
+  healthTextPrefab: {fileID: 0}
   musicPlayer: {fileID: 0}
+  gameCanvas: {fileID: 1572982261}
 --- !u!1 &862386712
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +256,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 208628801}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -1088,7 +1091,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 208628801}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -1355,7 +1358,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 208628801}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: HelpGame
         m_Mode: 1
         m_Arguments:

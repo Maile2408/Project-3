@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1430790774229435426}
-  - component: {fileID: 4159741092561139148}
   - component: {fileID: 8577257328770936718}
+  - component: {fileID: 8518073869161275609}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -33,21 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4159741092561139148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858465477227641220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5e24fd795110ad40bc287a19d5678ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageTextPrefab: {fileID: 6089825820775455841, guid: b3d8e55f8e17e8e4790a8b6927175346, type: 3}
-  healthTextPrefab: {fileID: 6089825820775455841, guid: a6143d2dcfcfe0e45ae70b72bf441eed, type: 3}
-  gameCanvas: {fileID: 0}
 --- !u!114 &8577257328770936718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +124,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4159741092561139148}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: OnExitGame
         m_Mode: 0
@@ -158,3 +143,20 @@ MonoBehaviour:
   m_DefaultActionMap: UI
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8518073869161275609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858465477227641220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2cb2204ce714394aa9e1eb652cb892e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
+  damageTextPrefab: {fileID: 6089825820775455841, guid: b3d8e55f8e17e8e4790a8b6927175346, type: 3}
+  healthTextPrefab: {fileID: 6089825820775455841, guid: a6143d2dcfcfe0e45ae70b72bf441eed, type: 3}
+  musicPlayer: {fileID: 0}
+  gameCanvas: {fileID: 0}

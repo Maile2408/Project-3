@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    public GameObject pauseMenuUI;
     public GameObject damageTextPrefab;
     public GameObject healthTextPrefab;
+
+    public MusicPlayer musicPlayer;
 
     public Canvas gameCanvas;
 
@@ -46,6 +50,45 @@ public class UIManager : MonoBehaviour
         tmpText.text = healthRestored.ToString();
     }
 
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("GameplayScene");
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
+        musicPlayer.ResumeMusic();
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+        pauseMenuUI.SetActive(true);
+        musicPlayer.PauseMusic();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("MapScene");
+    }
+
+    public void HelpGame()
+    {
+
+    }
+    
     public void OnExitGame(InputAction.CallbackContext context)
     {
         if(context.started)
