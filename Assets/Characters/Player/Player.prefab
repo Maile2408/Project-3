@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 8
-  airWalkSpeed: 5
+  airWalkSpeed: 3
   jumpInpulse: 10
   _isMoving: 0
   _isRunning: 0
@@ -527,6 +527,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   damageableDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  healthChanged:
     m_PersistentCalls:
       m_Calls: []
   _maxHealth: 100

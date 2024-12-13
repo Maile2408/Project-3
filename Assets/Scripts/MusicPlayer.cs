@@ -13,9 +13,15 @@ public class MusicPlayer : MonoBehaviour
         loopSource.PlayScheduled(AudioSettings.dspTime + introSource.clip.length);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PauseMusic()
     {
-        
+        introSource.Pause();
+        loopSource.Pause();
+    }
+
+    public void ResumeMusic()
+    {
+        introSource.UnPause();
+        loopSource.UnPause();
     }
 }
