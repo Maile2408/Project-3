@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3878532678204011910
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1670327187685357702, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793214701480863612, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4050606601515588079}
+    - target: {fileID: 1793214701480863612, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: YesButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793214701480863612, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CanvasQuitGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702255550344081757, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Name
+      value: Button - No
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273635563007110400, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273635563007110400, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275600814166232381, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Color.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701514449530510008, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4050606601515588079}
+    - target: {fileID: 3701514449530510008, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NoButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701514449530510008, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CanvasQuitGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787851715284604471, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964060840430015119, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_text
+      value: Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998283100955052782, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Name
+      value: Button - Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231302992656039217, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_text
+      value: No
+      objectReference: {fileID: 0}
+    - target: {fileID: 6536775996111781564, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_text
+      value: Are you sure you want to quit the game?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7534017149033783331, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_Name
+      value: Canvas - QuitGame Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7534017149033783331, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7684487442891275756, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1394020693164517808, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 7931044931963808055, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7534017149033783331, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4050606601515588079}
+  m_SourcePrefab: {fileID: 100100000, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+--- !u!1 &6727643670134396325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7534017149033783331, guid: a6070dd803d048b4fae7e839a1719650, type: 3}
+  m_PrefabInstance: {fileID: 3878532678204011910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4050606601515588079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727643670134396325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf45d3f8efc09144fb659f2e53ab39b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
