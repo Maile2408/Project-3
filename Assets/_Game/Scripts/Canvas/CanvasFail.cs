@@ -10,6 +10,7 @@ public class CanvasFail : UICanvas
         // Lấy tên của Level hiện tại
         string currentLevelName = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(currentLevelName);
+        GameManager.Instance.ResumeGame();
         Close(0);
         UIManager.Instance.OpenUI<CanvasGamePlay>();
     }

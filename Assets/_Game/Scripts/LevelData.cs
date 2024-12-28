@@ -27,6 +27,7 @@ public class LevelData : MonoBehaviour
     {
         string levelName = "Level " + levelId;
         SceneManager.LoadScene(levelName);
+        GameManager.Instance.ResumeGame();
     }
 
     void ButtonsToArray()

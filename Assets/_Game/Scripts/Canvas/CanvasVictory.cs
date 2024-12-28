@@ -7,6 +7,7 @@ public class CanvasVictory : UICanvas
 {
     public void NextButton()
     {
+        GameManager.Instance.ResumeGame();
         LevelManager.Instance.NextLevel();
     }
 
